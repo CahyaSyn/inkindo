@@ -12,35 +12,29 @@
     .navbar-background {
         background: rgba(255, 255, 255, 0.7);
     }
+
+    .caption-background {
+        background: rgba(255, 255, 255, 0.7);
+    }
 </style>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-xl fixed-top shadow navbar-background">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img src="<?= base_url('assets/img/Inkindo-logo.png'); ?>" style="width: 180px;" /></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-light navbar-expand-xl fixed-top shadow" style="background: rgba(255,255,255,0.7);">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img src="<?= base_url('assets/img/Inkindo-logo.png'); ?>" style="width: 200px;" /></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div id="navcol-2" class="collapse navbar-collapse">
                 <ul class="navbar-nav fw-bold ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active text-uppercase fw-bold" href="#" style="font-size: 14px;">Beranda</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link active text-uppercase fw-bold" href="#" style="font-size: 14px;">Beranda</a></li>
                     <li class="nav-item dropdown ms-5">
                         <a class="nav-link text-uppercase fw-bold" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="font-size: 14px;">Profile Inkindo</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Prakata</a>
-                            <a class="dropdown-item" href="#">Visi misi</a>
-                            <a class="dropdown-item" href="#">Kode etik</a>
+                            <a class="dropdown-item" href="#">Visi misi</a><a class="dropdown-item" href="#">Kode etik</a>
                         </div>
                     </li>
                     <li class="nav-item ms-5"><a class="nav-link text-uppercase fw-bold" href="#" style="font-size: 14px;">Bidang Layanan</a></li>
                     <li class="nav-item ms-5"><a class="nav-link text-uppercase fw-bold" href="#" style="font-size: 14px;">KEANGGOTAAN</a></li>
                     <li class="nav-item ms-5"><a class="nav-link text-uppercase fw-bold" href="#" style="font-size: 14px;">INFORMASI PUBLIK</a></li>
-                    <li class="nav-item dropdown d-xl-flex d-xxl-flex align-items-xl-center ms-5">
-                        <a class="nav-link text-uppercase fw-bold" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="font-size: 14px;"><i class="fas fa-ellipsis-h d-lg-flex align-items-lg-center"></i></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Prakata</a>
-                            <a class="dropdown-item" href="#">Visi misi</a>
-                            <a class="dropdown-item" href="#">Kode etik</a>
-                        </div>
-                    </li>
+                    <li class="nav-item dropdown d-xl-flex d-xxl-flex align-items-xl-center ms-5"><i class="fas fa-ellipsis-h d-lg-flex align-items-lg-center"></i></li>
                 </ul>
             </div>
         </div>
@@ -48,16 +42,16 @@
 
     <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner shadow">
-            <div class="carousel-item active"><img class="w-100 d-block" src="<?= base_url('assets/img/slider1.jpeg'); ?>" alt="Slide Image" /></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="<?= base_url('assets/img/office2.jpg'); ?>" alt="Slide Image" /></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="<?= base_url('assets/img/office3.jpg'); ?>" alt="Slide Image" /></div>
+            <div class="carousel-item active"><img class="w-100 d-block" src="<?= base_url('assets/img/slider1.jpeg'); ?>" /></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="<?= base_url('assets/img/office1.jpg'); ?>" /></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="<?= base_url('assets/img/office3.jpg'); ?>" /></div>
         </div>
-        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-        <ol class="carousel-indicators">
-            <li class="active" data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
-            <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
-        </ol>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">previous</span></a></div>
+        <div class="row" style="bottom: 0px;position: absolute;width: 100%;margin: 0px;height: 80px;">
+            <div class="col d-flex justify-content-center align-items-center" style="background: rgba(255,255,255,0.4);">
+                <h2 class="d-flex align-items-center" style="margin-bottom: 0px;">Mendaftar menjadi anggota, sekarang lebih praktis!  <a class="btn btn-lg btn-outline-dark" href="#" style="border-width: 2.5px;"><strong>Daftar Sekarang</strong></a></h2>
+            </div>
+        </div>
     </div>
 
     <div class="container d-flex flex-column align-items-center py-4 py-xl-5">
