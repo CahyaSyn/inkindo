@@ -29,13 +29,15 @@
     .a {
         text-decoration: none;
     }
+
     .kategori {
-        font-size: 18px; 
-        margin: 4.5px; 
-        text-decoration:none;
+        font-size: 18px;
+        margin: 4.5px;
+        text-decoration: none;
         padding-top: 4px;
         color: black;
     }
+
     .kategori:hover {
         background-color: black;
         color: white;
@@ -153,6 +155,92 @@
         </div>
     </div>
 
+    <!-- Gallery -->
+    <section class="photo-gallery py-4 py-xl-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>Gallery</h2>
+                    <p class="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
+                </div>
+            </div>
+            <div class="row gx-4 gy-3 row-cols-1 row-cols-md-3 photos" data-bss-baguettebox>
+                <div class="col item">
+                    <a href="#">
+                        <img class="img-fluid" src="<?= base_url('assets/img/slider1.jpeg'); ?>" style="height: 100%;" />
+                    </a>
+                </div>
+                <div class="col item">
+                    <a href="#">
+                        <img class="img-fluid" src="<?= base_url('assets/img/profil.jpeg'); ?>" style="height: 100%;" />
+                    </a>
+                </div>
+                <div class="col item">
+                    <a href="#">
+                        <img class="img-fluid" src="<?= base_url('assets/img/rekarnas.jpg'); ?>" style="height: 100%;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Berita -->
+    <div class="container d-flex flex-column align-items-center py-4 py-xl-5 mb-3">
+        <h2>Berita</h2>
+        <div class="row mt-3">
+            <div class="col-sm-6">
+                <div class="card border-0" style="height: 400px;">
+                    <img class="img-fluid" src="<?= base_url('assets/img/slider1.jpeg'); ?>" style="height: 50%; object-fit:cover; object-position: 0px 10%" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card mb-3 border-0">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="<?= base_url('assets/img/slider1.jpeg'); ?>" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 border-0">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="<?= base_url('assets/img/slider1.jpeg'); ?>" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="<?= base_url('assets/img/slider1.jpeg'); ?>" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <br>
     <div class="container">
         <h2 class="text-center">Regulasi</h2>
@@ -212,35 +300,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Gallery -->
-    <section class="photo-gallery py-4 py-xl-5">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2>Gallery</h2>
-                    <p class="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
-                </div>
-            </div>
-            <div class="row gx-4 gy-3 row-cols-1 row-cols-md-3 photos" data-bss-baguettebox>
-                <div class="col item">
-                    <a href="#">
-                        <img class="img-fluid" src="<?= base_url('assets/img/slider1.jpeg'); ?>" style="height: 100%;" />
-                    </a>
-                </div>
-                <div class="col item">
-                    <a href="#">
-                        <img class="img-fluid" src="<?= base_url('assets/img/profil.jpeg'); ?>" style="height: 100%;" />
-                    </a>
-                </div>
-                <div class="col item">
-                    <a href="#">
-                        <img class="img-fluid" src="<?= base_url('assets/img/rekarnas.jpg'); ?>" style="height: 100%;" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <br>
     <div class="container">
@@ -374,7 +433,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
