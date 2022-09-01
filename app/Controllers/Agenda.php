@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\AgendaModel;
 
-class Home extends BaseController
+class Agenda extends BaseController
 {
     protected $AgendaModel;
 
@@ -17,7 +17,8 @@ class Home extends BaseController
     {
         $data = [
             'title' => 'Agenda',
-            'agenda' => $this->AgendaModel->findAll()
+            'agenda' => $this->AgendaModel->paginate(1, 'tabel_agenda'),
+            'pager' => $this->AgendaModel->pager
         ];
         return view('homepage/index', $data);
     }
