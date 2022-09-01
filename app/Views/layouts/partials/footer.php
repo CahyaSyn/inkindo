@@ -1,3 +1,12 @@
+<div class="row d-flex justify-content-center align-items-center" style="background: #cee6e6;">
+    <div class="col d-flex justify-content-center align-items-center"><i class="fas fa-phone-alt fs-1 me-2"></i>
+        <div style="margin: 12px;">
+            <h4 style="margin-bottom: 6px;">Bagaimana kami bisa membantu?<br /></h4>
+            <p style="margin-bottom: 0px;">Hubungi kami melalui email, media sosial atau nomor telepon dan kami akan membalasnya secepat mungkin</p>
+        </div>
+    </div>
+</div>
+
 <!-- Footer -->
 <footer class="text-white bg-dark">
     <div class="container py-4 py-lg-5">

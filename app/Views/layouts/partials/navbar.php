@@ -11,12 +11,12 @@
         <div id="navcol-2" class="collapse navbar-collapse">
             <ul class="navbar-nav fw-bold ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active text-uppercase fw-bold" href="#" style="font-size: 14px;">Beranda</a>
+                    <a class="nav-link active text-uppercase fw-bold" href="<?= base_url('/'); ?>" style="font-size: 14px;">Beranda</a>
                 </li>
                 <li class="nav-item dropdown ms-5">
                     <a class="nav-link text-uppercase fw-bold" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 14px;">Profile Inkindo</a>
                     <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-                        <a class="dropdown-item" href="#">Prakata</a>
+                        <a class="dropdown-item" href="<?= base_url('/prakata'); ?>">Prakata</a>
                         <a class="dropdown-item" href="#">Visi misi</a>
                         <a class="dropdown-item" href="#">Kode etik</a>
                     </div>
