@@ -300,9 +300,35 @@
             </div>
         </div>
     </div>
-
-    <br>
     <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="mt-4 text-center" >Agenda</h2>
+                    <div class="container text-center py-5 px-2">
+                    <?= $pager->links('tabel_agenda', 'agenda_pagination'); ?>
+                    <?php foreach ($agenda as $a) : ?>
+                    <div class="row">
+                        <div class="col col-lg-2 first">
+                        <h4><?= $a['tanggal']; ?></h4>
+                        </div>
+                        <div class="col-md-auto second">
+                        <img src="/img/<?= $a['sampul']; ?>" width="250px" alt="">
+                        </div>
+                        <div class="col third text-start">
+                            <h5><?= $a['judul']; ?></h5>
+                            <p class="mt-2" ><?= $a['lokasi']; ?></p>
+                            <p><?= $a['waktu']; ?></p>
+                            <p class="mt-4" ><?= $a['deskripsi']; ?></p>
+                            <div class="btn btn-outline-secondary mt-4" >Detail Acara <i class="fa-solid fa-arrow-right"></i> </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container my-3 ">
         <h2 class="text-center">Mitra</h2>
         <div class="center">
             <div class="container">
@@ -366,7 +392,7 @@
         </div>
     </div>
 
-    <div class="row d-flex justify-content-center align-items-center" style="background: #cee6e6;">
+    <div class="row d-flex justify-content-center align-items-center mt-3 " style="background: #cee6e6;">
         <div class="col d-flex justify-content-center align-items-center"><i class="fas fa-phone-alt fs-1 me-2"></i>
             <div style="margin: 12px;">
                 <h4 style="margin-bottom: 6px;">Bagaimana kami bisa membantu?<br /></h4>
