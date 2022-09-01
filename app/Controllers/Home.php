@@ -15,11 +15,20 @@ class Home extends BaseController
 
     public function index()
     {
-        $data = [
-            'title' => 'Agenda',
-            'agenda' => $this->AgendaModel->findAll()
-        ];
-        return view('homepage/index', $data);
+        // $data = [
+        //     'agenda' => $this->AgendaModel->paginate(1, 'agenda'),
+        //     'pager' => $this->AgendaModel->pager,
+        // ];
+
+        return view('homepage/home', [
+            'title' => 'Home | Inkindo'
+        ]);
     }
 
+    public function prakata()
+    {
+        return view('homepage/prakata', [
+            'title' => 'Prakata | Inkindo'
+        ]);
+    }
 }
