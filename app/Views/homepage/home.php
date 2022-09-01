@@ -206,8 +206,6 @@
 </div>
 <!-- End Regulasi -->
 
-
-
 <!-- Mitra -->
 <br>
 <div class="container my-3 ">

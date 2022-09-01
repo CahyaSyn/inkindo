@@ -27,7 +27,7 @@ class Home extends BaseController
 
     public function prakata()
     {
-        return view('homepage/prakata', [
+        return view('profil_inkindo/prakata', [
             'title' => 'Prakata | Inkindo'
         ]);
     }
