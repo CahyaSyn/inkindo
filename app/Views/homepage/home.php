@@ -144,6 +144,76 @@
     </div>
 </div>
 
+<!-- Agenda -->
+<div class="container">
+    <h2 class="text-center" >Agenda</h2>
+    <div class="row">
+        <div class="col">
+        <ul class="nav nav-tabs" style="border: 0;" >
+        <li class="nav-items"><a href="#next-agenda" class="nav-link active" data-bs-toggle="tab" >Agenda Berikutnya</a></li>
+        <li class="nav-items"><a href="#prev-agenda" class="nav-link" data-bs-toggle="tab">Agenda Lama</a></li>
+    </ul>
+    <div class="tab-content px-5 m-5" style="height: 300px;" >
+        <div class="tab-pane active" id="next-agenda" >
+            <div class="row border">
+                <div class="col-md-1">
+                    <h5>Agu</h5>
+                    <h5>31</h5>
+                </div>
+                <div class="col-md-4" style="object-fit: cover;" >
+                    <img class="img-fluid" src="<?= base_url('assets/img/agenda-2.jpg'); ?>" width="300" alt="">
+                </div>
+                <div class="col-7">
+                    <div>
+                    <h5>Diskusi Panel Peluang Jasa Konsultasi Pasca Pandemi Covid 19</h5>
+                    <ul>
+                        <li>
+                            <p>Jalan Kenari, Umbulharjo, Yogyakarta</p>
+                        </li>
+                        <li>
+                            <p>08.00 am - 10.00 am</p>
+                        </li>
+                    </ul>
+                    <p>Saat ini kondisi kegiatan baik APBN dan APBD terpangaruh oleh adanya pandemi, INKINDO  DKI akan ...</p>
+                    </div>
+                    
+                    <a class="btn btn-outline-dark justify-content-center align-items-center mt-3" role="button" href="#">Daftar Sekarang<i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="prev-agenda" >
+            <div class="row border">
+                <div class="col-md-1">
+                    <h5>Agu</h5>
+                    <h5>31</h5>
+                </div>
+                <div class="col-md-4" style="object-fit: cover;" >
+                    <img class="img-fluid" src="<?= base_url('assets/img/agenda-1.jpg'); ?>" width="300" alt="">
+                </div>
+                <div class="col-7">
+                    <div>
+                    <h5>Diskusi Panel Peluang Jasa Konsultasi Pasca Pandemi Covid 19</h5>
+                    <ul>
+                        <li>
+                            <p>Jalan Kenari, Umbulharjo, Yogyakarta</p>
+                        </li>
+                        <li>
+                            <p>08.00 am - 10.00 am</p>
+                        </li>
+                    </ul>
+                    <p>Saat ini kondisi kegiatan baik APBN dan APBD terpangaruh oleh adanya pandemi, INKINDO  DKI akan ...</p>
+                    </div>
+                    
+                    <a class="btn btn-outline-dark justify-content-center align-items-center mt-3" role="button" href="#">Daftar Sekarang<i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- Regulasi -->
 <br>
 <div class="container">
