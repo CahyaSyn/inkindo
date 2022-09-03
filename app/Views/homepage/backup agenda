@@ -1,0 +1,28 @@
+<!-- Agenda -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="mt-4 text-center">Agenda</h2>
+            <div class="container text-center py-5 px-2">
+                <?= $pager->links('agenda', 'agenda_pagination') ?>
+                <?php foreach ($agenda as $a) : ?>
+                    <div class="row">
+                        <div class="col col-lg-2 first">
+                            <h4><?= $a['tanggal']; ?></h4>
+                        </div>
+                        <div class="col-md-auto second">
+                            <img src="/img/<?= $a['sampul']; ?>" width="250px" alt="">
+                        </div>
+                        <div class="col third text-start">
+                            <h5><?= $a['judul']; ?></h5>
+                            <p class="mt-2"><?= $a['lokasi']; ?></p>
+                            <p><?= $a['waktu']; ?></p>
+                            <p class="mt-4"><?= $a['deskripsi']; ?></p>
+                            <div class="btn btn-outline-secondary mt-4">Detail Acara <i class="fa-solid fa-arrow-right"></i> </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>
