@@ -7,34 +7,18 @@
 <!-- End Navbar -->
 
 <!-- Carousel -->
-<div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner shadow">
-        <div class="carousel-item active">
-            <img class="w-100 d-block" src="<?= base_url('assets/img/slider1.jpeg'); ?>" />
-        </div>
-        <div class="carousel-item">
-            <img class="w-100 d-block" src="<?= base_url('assets/img/hut43.jpg'); ?>" />
-        </div>
-        <div class="carousel-item">
-            <img class="w-100 d-block" src="<?= base_url('assets/img/rekarnas.jpg'); ?>" />
-        </div>
+<div id="carousel-1" class="carousel slide carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active"><img class="w-100 d-block" id="carousel_image" src="<?= base_url('assets/img/slider1.jpeg'); ?>" alt="Slide Image" /></div>
+        <div class="carousel-item"><img class="w-100 d-block" id="carousel_image" src="<?= base_url('assets/img/hut43.jpg'); ?>" alt="Slide Image" /></div>
+        <div class="carousel-item"><img class="w-100 d-block" id="carousel_image" src="<?= base_url('assets/img/rekarnas.jpg'); ?>" alt="Slide Image" /></div>
     </div>
-    <div>
-        <a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="visually-hidden">previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="visually-hidden">previous</span>
-        </a>
-    </div>
-    <div class="d-flex row" style="bottom: 0px;position: absolute;width: 100%;margin: 0px;height: 80px;">
-        <div class="col d-flex align-items-center flex-lg-row justify-content-lg-center" style="background: rgba(255,255,255,0.4);">
-            <h4 class="d-flex" style="margin-bottom: 0px;">Mendaftar menjadi anggota, sekarang lebih praktis!  </h4>
-            <a class="btn btn-outline-dark d-flex justify-content-center align-items-center" role="button" href="#">Daftar Sekarang<i class="fas fa-arrow-right ms-2"></i></a>
-        </div>
-    </div>
+    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></a></div>
+    <ol class="carousel-indicators">
+        <li class="active" data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
+        <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+    </ol>
 </div>
 <!-- End Carousel -->
 

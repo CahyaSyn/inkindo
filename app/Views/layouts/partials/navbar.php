@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-light navbar-expand-xl fixed-top shadow" style="background: rgba(255,255,255,0.7);">
+<nav class="navbar navbar-light navbar-expand-xl sticky-top shadow" style="background: rgba(255,255,255,0.7);">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
             <img src="<?= base_url('assets/img/Inkindo-logo.png'); ?>" style="width: 200px;" />
