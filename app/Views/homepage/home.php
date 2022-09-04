@@ -26,14 +26,14 @@
 <div class="container py-4 py-xl-5">
     <div class="row">
         <div class="col-md-6">
-            <div class="p-xl-5 m-xl-5">
-                <img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="<?= base_url('assets/img/profil.jpeg'); ?>" />
+            <div class="m-xl-2">
+                <img class="img-fluid w-100 fit-cover" style="min-height: 300px;" src="<?= base_url('assets/img/profil.jpeg'); ?>" />
             </div>
         </div>
         <div class="col-md-6 d-md-flex align-items-md-center justify-content-xl-center">
             <div style="max-width: 450px;">
-                <h3 class="text-capitalize fw-bold">Profile</h3>
-                <h4 class="text-capitalize fw-bold">we are learning organization</h4>
+                <h2 class="text-capitalize">Profile</h2>
+                <h2 class="text-capitalize fw-bold">we are learning organization</h2>
                 <p class="my-3">Ikatan Nasional Konsultan Indonesia (INKINDO) merupakan Asosiasi Perusahaan Jasa Konsultan di Indonesia yang didirikan pada tanggal 20 Juni 1979 di Jakarta, INKINDO merupakan fusi dari Ikatan Konsultan Indonesia (IKINDO) yang didirikan pada tanggal 10 Februari 1970 dan Persatuan Konsultan Teknik Pembangunan Indonesia (PKTPI).</p><a class="btn btn-outline-dark d-flex d-lg-inline-flex justify-content-center align-items-center justify-content-lg-start" role="button" href="#">Lihat Selengkapnya<i class="fas fa-arrow-right ms-2"></i></a>
             </div>
         </div>
@@ -139,7 +139,7 @@
     </ul>
     <div class="tab-content px-5 m-5" style="height: 300px;" >
         <div class="tab-pane active" id="next-agenda" >
-            <div class="row border">
+            <div class="row border-0">
                 <div class="col-md-1">
                     <h5>Agu</h5>
                     <h5>31</h5>

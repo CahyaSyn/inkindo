@@ -38,7 +38,7 @@ $routes->set404Override();
 
 $routes->get('/', 'Home::index');
 $routes->get('/prakata', 'Home::prakata');
-$routes->get('/visi-misi', 'Home::visimisi');
+$routes->get('/visimisi', 'Home::visimisi');
 
 /*
  * --------------------------------------------------------------------
