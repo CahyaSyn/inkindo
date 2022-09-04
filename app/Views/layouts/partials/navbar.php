@@ -17,7 +17,7 @@
                     <a class="nav-link text-uppercase fw-bold" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 14px;">Profile Inkindo</a>
                     <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
                         <a class="dropdown-item" href="<?= base_url('/prakata'); ?>">Prakata</a>
-                        <a class="dropdown-item" href="#">Visi misi</a>
+                        <a class="dropdown-item" href="<?= base_url('/visimisi'); ?>">Visi misi</a>
                         <a class="dropdown-item" href="#">Kode etik</a>
                     </div>
                 </li>
