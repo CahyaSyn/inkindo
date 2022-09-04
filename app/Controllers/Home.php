@@ -31,4 +31,11 @@ class Home extends BaseController
             'title' => 'Prakata | Inkindo'
         ]);
     }
+
+    public function visimisi()
+    {
+        return view('profil_inkindo/visimisi', [
+            'title' => 'Visi Misi | Inkindo'
+        ]);
+    }
 }
