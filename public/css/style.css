@@ -10,11 +10,11 @@
 #carousel_image {
   max-height: 720px;
 }
-.item img {
+.owl-carousel .item img {
   height: 150px;
   width: 50px;
   margin-bottom: 30px;
 }
-.item .card {
+.owl-carousel .item .card {
   padding: 30px 50px 30px 50px;
 }
