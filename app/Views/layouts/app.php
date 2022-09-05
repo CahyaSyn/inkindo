@@ -90,7 +90,6 @@
     }
 
     .pembungkus {
-        /* image 5 */
         width: 1167px;
         height: 283px;
         top: 82px;
