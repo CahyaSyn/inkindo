@@ -31,10 +31,19 @@ class Home extends BaseController
             'title' => 'Prakata | Inkindo'
         ]);
     }
+
+    public function kodeetik()
+    {
+        return view('profil_inkindo/kodeetik', [
+            'title' => 'Kode Etik | Inkindo'
+        ]);
+    }
+
     public function visimisi()
     {
         return view('profil_inkindo/visimisi', [
             'title' => 'Visi Misi | Inkindo'
+
         ]);
     }
 }

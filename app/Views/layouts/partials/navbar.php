@@ -18,7 +18,7 @@
                     <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
                         <a class="dropdown-item" href="<?= base_url('/prakata'); ?>">Prakata</a>
                         <a class="dropdown-item" href="<?= base_url('/visimisi'); ?>">Visi misi</a>
-                        <a class="dropdown-item" href="#">Kode etik</a>
+                        <a class="dropdown-item" href="<?= base_url('/kodeetik'); ?>">Kode etik</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown ms-4">
