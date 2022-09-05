@@ -1,12 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 #carousel_image {
-    max-height: 720px;
+  max-height: 720px;
+}
+.owl-carousel .item img {
+  height: 150px;
+  width: 50px;
+  margin-bottom: 30px;
+}
+.owl-carousel .item .card {
+  padding: 30px 50px 30px 50px;
 }

@@ -38,4 +38,12 @@ class Home extends BaseController
             'title' => 'Kode Etik | Inkindo'
         ]);
     }
+
+    public function visimisi()
+    {
+        return view('profil_inkindo/visimisi', [
+            'title' => 'Visi Misi | Inkindo'
+
+        ]);
+    }
 }
