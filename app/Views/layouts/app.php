@@ -101,6 +101,16 @@
         background: url("../assets/img/kode.png");
         opacity: 0.9;
     }
+
+    .pembungkus .card {
+        height: 200px;
+    }
+
+    @media only screen and(max-width: 480px) {
+        .kodeetiket {
+            background-color: red;
+        }
+    }
 </style>
 
 <body>
@@ -137,7 +147,7 @@
                 items: 1
             },
             600: {
-                items: 2
+                items: 3
             },
             1000: {
                 items: 4

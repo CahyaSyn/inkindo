@@ -16,11 +16,11 @@
     </div>
 </div>
 <div class="container my-5 py-5">
-    <h1 class="text-center my-5">Misi</h1>
+    <h1 class="text-center my-5 fw-bold">Misi</h1>
     <div class="row py-3 px-5 text-center">
         <div class="owl-carousel owl-theme">
             <div class="item mb-4 me-4">
-                <div class="card border-0 shadow">
+                <div class="card shadow">
                     <img src="<?= base_url('assets/img/misi3.png'); ?>" alt="image" class="card-img-top">
                     <div class="card-body">
                         <h6> Meningkatkan efektivitas INKINDO sebagai wadah komunikasi dan koordinasi antar Anggota dengan para pemangku kepentingan</h6>
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="item mb-4  me-4">
-                <div class="card border-0 shadow">
+                <div class="card shadow">
                     <img src="<?= base_url('assets/img/misi.png'); ?>" alt="image" class="card-img-top">
                     <div class="card-body">
                         <h6> Meningkatkan efektivitas INKINDO sebagai wadah komunikasi dan koordinasi antar Anggota dengan para pemangku kepentingan</h6>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="item mb-4  me-4">
-                <div class="card border-0 shadow">
+                <div class="card shadow">
                     <img src="<?= base_url('assets/img/misi2.png'); ?>" alt="image" class="card-img-top">
                     <div class="card-body">
                         <h6> Meningkatkan efektivitas INKINDO sebagai wadah komunikasi dan koordinasi antar Anggota dengan para pemangku kepentingan</h6>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="item mb-4  me-4">
-                <div class="card border-0 shadow">
+                <div class="card shadow">
                     <img src="<?= base_url('assets/img/misi3.png'); ?>" alt="image" class="card-img-top">
                     <div class="card-body">
                         <h6> Meningkatkan efektivitas INKINDO sebagai wadah komunikasi dan koordinasi antar Anggota dengan para pemangku kepentingan</h6>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="item mb-4  me-4">
-                <div class="card border-0 shadow">
+                <div class="card shadow">
                     <img src="<?= base_url('assets/img/misi2.png'); ?>" alt="image" class="card-img-top">
                     <div class="card-body">
                         <h6> Meningkatkan efektivitas INKINDO sebagai wadah komunikasi dan koordinasi antar Anggota dengan para pemangku kepentingan</h6>
