@@ -36,7 +36,7 @@
     }
 
     .kategori {
-        font-size: 18px;
+        font-size: 16px;
         margin: 4.5px;
         text-decoration: none;
         padding-top: 4px;
@@ -48,6 +48,69 @@
         color: white;
 
     }
+
+    .kode-1 {
+        font-family: 'Poppins';
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .kode-2 {
+        color: gray;
+        padding-left: 140px;
+        padding-right: 140px;
+        font-size: 16PX;
+        font-family: 'Poppins';
+    }
+
+    .center-card {
+        height: 80px;
+    }
+
+    .lingkaran1 {
+        width: 90px;
+        height: 66px;
+        background: #207FC1;
+        border-radius: 50%;
+        border-top-left-radius: 100% 160%;
+        border-top-right-radius: 100% 160%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 18px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .nomer {
+        text-align: center;
+        padding-top: 15px;
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins';
+    }
+
+    .card-text {
+        padding: 8px;
+        font-size: 12.3px;
+        font-family: 'Poppins';
+    }
+
+    .pembungkus {
+        width: 1167px;
+        height: 283px;
+        top: 82px;
+        background: url("../assets/img/kode.png");
+        opacity: 0.9;
+    }
+    .pembungkus .card {
+        height: 200px;
+    }
+
+    @media only screen and(max-width: 480px) {
+        .kodeetiket {
+            background-color: red;
+        }
+    }
+
 </style>
 
 <body>
@@ -67,7 +130,7 @@
     <!-- Init Owl Carousel -->
     <script>
         $('.owl-carousel').owlCarousel({
-        loop:true,
+        loop:false,
         margin:10,
         nav:true,
         responsive:{
@@ -75,7 +138,7 @@
                 items:1
             },
             600:{
-                items:2
+                items:1
             },
             1000:{
                 items:3
