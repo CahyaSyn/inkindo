@@ -101,6 +101,16 @@
         background: url("../assets/img/kode.png");
         opacity: 0.9;
     }
+    .pembungkus .card {
+        height: 200px;
+    }
+
+    @media only screen and(max-width: 480px) {
+        .kodeetiket {
+            background-color: red;
+        }
+    }
+
 </style>
 
 <body>
@@ -120,7 +130,7 @@
     <!-- Init Owl Carousel -->
     <script>
         $('.owl-carousel').owlCarousel({
-        loop:true,
+        loop:false,
         margin:10,
         nav:true,
         responsive:{
@@ -128,7 +138,7 @@
                 items:1
             },
             600:{
-                items:2
+                items:1
             },
             1000:{
                 items:3

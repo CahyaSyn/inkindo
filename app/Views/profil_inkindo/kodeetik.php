@@ -9,8 +9,8 @@
     <h2 class="text-center kode-1">Kode Etik</h2>
     <div class="container">
     <div class="center">
-        <div class="pembungkus">
-            <div class="row">
+        <div class="pembungkus p-5 kodeetik">
+            <!-- <div class="row">
                 <div class="col-sm-4">
                     <div class="center">
                         <div class="card shadow" style="margin: 40px; width: 230%; padding-top: 20px;height: 200px; opacity: 0.8; margin-left: 90px">
@@ -41,7 +41,33 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+            <div class="owl-carousel owl-theme">
+            <div class="item mb-3 me-4">
+                <div class="card shadow" style="opacity: 0.8;">
+                    <div class="card-body">
+                        <h5>Patuhi</h5>
+                        <p>Mematuhi kode etik inkindo wajib bagi setiap anggota.</p>
+                    </div>
+                </div>
             </div>
+            <div class="item mb-4 me-4">
+                <div class="card shadow" style="opacity: 0.8;">
+                    <div class="card-body">
+                        <h5>Tanggung Jawab</h5>
+                        <p>Konsultan dengan keilmuannya, dituntut menghasilkan karya secara profesional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item mb-4 me-4">
+                <div class="card shadow" style="opacity: 0.8;">
+                    <div class="card-body">
+                        <h5>Menjunjung Tinggi</h5>
+                        <p>Menjunjung tinggi kode etik inkindo wajib bagi setiap anggota.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
     </div>
