@@ -1,57 +1,28 @@
 <!-- Navbar -->
-<nav class="navbar navbar-light navbar-expand-lg sticky-top shadow" style="background: rgba(255,255,255,0.7);">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="<?= base_url('assets/img/Inkindo-logo.png'); ?>" style="width: 200px;" />
-        </a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2">
-            <span class="visually-hidden">Toggle navigation</span>
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navcol-2" class="collapse navbar-collapse">
-            <ul class="navbar-nav fw-bold ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active text-uppercase fw-bold" href="<?= base_url('/'); ?>" style="font-size: 14px;">Beranda</a>
-                </li>
-                <li class="nav-item dropdown ms-4">
-                    <a class="nav-link text-uppercase fw-bold" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 14px;">Profile Inkindo</a>
-                    <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+<nav class="navbar navbar-light navbar-expand-lg shadow-sm">
+    <div class="container"><a class="navbar-brand" href="#"><img id="logo-inkindo" src="assets/img/Inkindo-logo.png" /></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div id="navcol-1" class="collapse navbar-collapse d-xl-flex justify-content-md-end">
+            <ul class="navbar-nav fw-semibold">
+                <li class="nav-item"><a class="nav-link active" href="<?= base_url('/'); ?>">Beranda</a></li>
+                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Profil Inkindo</a>
+                    <div class="dropdown-menu dropdown-menu-end">
                         <a class="dropdown-item" href="<?= base_url('/prakata'); ?>">Prakata</a>
-                        <a class="dropdown-item" href="<?= base_url('/visimisi'); ?>">Visi misi</a>
-                        <a class="dropdown-item" href="<?= base_url('/kodeetik'); ?>">Kode etik</a>
+                        <a class="dropdown-item" href="<?= base_url('/visimisi'); ?>">Visi - Misi</a>
+                        <a class="dropdown-item" href="<?= base_url('/kode_etik'); ?>">Kode Etik</a>
+                        <a class="dropdown-item" href="<?= base_url('/struktur'); ?>">Struktur Organisasi</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown ms-4">
-                    <a class="nav-link text-uppercase fw-bold" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 14px;">bidang layanan</a>
-                    <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-                        <a class="dropdown-item" href="#">Prakata</a>
-                        <a class="dropdown-item" href="#">Visi misi</a>
-                        <a class="dropdown-item" href="#">Kode etik</a>
-                    </div>
+                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Bidang Layanan</a>
+                    <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="<?= base_url('/struktur'); ?>">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                 </li>
-                <li class="nav-item dropdown ms-4">
-                    <a class="nav-link text-uppercase fw-bold" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 14px;">keanggotaan</a>
-                    <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-                        <a class="dropdown-item" href="#">Prakata</a>
-                        <a class="dropdown-item" href="#">Visi misi</a>
-                        <a class="dropdown-item" href="#">Kode etik</a>
-                    </div>
+                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Keanggotaan</a>
+                    <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                 </li>
-                <li class="nav-item dropdown ms-4">
-                    <a class="nav-link text-uppercase fw-bold" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 14px;">informasi publik</a>
-                    <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-                        <a class="dropdown-item" href="#">Prakata</a>
-                        <a class="dropdown-item" href="#">Visi misi</a>
-                        <a class="dropdown-item" href="#">Kode etik</a>
-                    </div>
+                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Informasi Publik</a>
+                    <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                 </li>
-                <li class="nav-item dropdown d-xl-flex align-items-xl-center ms-4">
-                    <a class="nav-link text-uppercase fw-bold" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 14px;"><i class="fas fa-ellipsis-h d-lg-flex align-items-lg-center"></i></a>
-                    <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-                        <a class="dropdown-item" href="#">Prakata</a>
-                        <a class="dropdown-item" href="#">Visi misi</a>
-                        <a class="dropdown-item" href="#">Kode etik</a>
-                    </div>
+                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-ellipsis-h"></i></a>
+                    <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                 </li>
             </ul>
         </div>
