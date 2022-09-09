@@ -46,4 +46,11 @@ class Home extends BaseController
 
         ]);
     }
+
+    public function anggaran()
+    {
+        return view('profil_inkindo/anggaran', [
+            'title' => 'AD & ART | Inkindo'
+        ]);
+    }
 }
