@@ -46,4 +46,12 @@ class Home extends BaseController
 
         ]);
     }
+
+    public function struktur()
+    {
+        return view('keanggotaan/struktur_anggota', [
+            'title' => 'Struktur | Inkindo'
+
+        ]);
+    }
 }

@@ -41,6 +41,7 @@ $routes->get('/prakata', 'Home::prakata');
 
 $routes->get('/kodeetik', 'Home::kodeetik');
 $routes->get('/visimisi', 'Home::visimisi');
+$routes->get('/struktur', 'Home::struktur');
 
 
 /*
