@@ -11,7 +11,7 @@
   max-height: 720px;
 }
 
-#logo-inkindo  {
+#logo-inkindo {
   width: 180px;
 }
 
@@ -46,11 +46,10 @@
 .kategori:hover {
   background-color: black;
   color: white;
-
 }
 
 .kode-1 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   padding-top: 35px;
   padding-bottom: 20px;
 }
@@ -59,8 +58,8 @@
   color: gray;
   padding-left: 140px;
   padding-right: 140px;
-  font-size: 16PX;
-  font-family: 'Poppins';
+  font-size: 16px;
+  font-family: "Poppins";
 }
 
 .center-card {
@@ -70,7 +69,7 @@
 .lingkaran1 {
   width: 90px;
   height: 66px;
-  background: #207FC1;
+  background: #207fc1;
   border-radius: 50%;
   border-top-left-radius: 100% 160%;
   border-top-right-radius: 100% 160%;
@@ -85,13 +84,13 @@
   padding-top: 15px;
   color: white;
   font-size: 22px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .card-text {
   padding: 8px;
   font-size: 12.3px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .pembungkus {
@@ -105,4 +104,21 @@
 #tree {
   width: 100%;
   height: 100%;
+}
+
+.bg-roadmap {
+  background: url("../assets/img/background-roadmap.png") center/contain
+    no-repeat;
+}
+
+.border {
+  background: #0a425c;
+  border-radius: 10px;
+}
+
+.syarat1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 30px;
 }

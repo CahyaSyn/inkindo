@@ -18,7 +18,7 @@
 <div class="container my-5 py-5">
     <h1 class="text-center my-5 fw-bold">Misi</h1>
     <div class="row py-3 px-5 text-center">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-visi-misi owl-carousel owl-theme">
             <div class="item mb-4 me-4">
                 <div class="card shadow">
                     <img src="<?= base_url('assets/img/misi3.png'); ?>" alt="image" class="card-img-top">

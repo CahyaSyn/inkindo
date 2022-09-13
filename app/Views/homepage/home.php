@@ -277,7 +277,7 @@
                 <p class="w-lg-50">Mitra dari inkindo</p>
             </div>
         </div>
-        <div class="row d-lg-flex align-items-lg-center owl-carousel owl-theme owl-loaded">
+        <div class="row d-lg-flex align-items-lg-center owl-mitra owl-carousel owl-theme owl-loaded">
             <div class="col item"><img src="assets/img/Bromindo.png" width="200px" height="200px" /></div>
             <div class="col item"><img src="assets/img/CEC.jpg" width="200px" height="200px" /></div>
             <div class="col item"><img src="assets/img/Daikin.jpg" width="200px" height="200px" /></div>

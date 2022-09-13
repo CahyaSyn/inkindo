@@ -49,8 +49,16 @@ class Home extends BaseController
 
     public function struktur()
     {
-        return view('keanggotaan/struktur_anggota', [
+        return view('profil_inkindo/struktur_organisasi', [
             'title' => 'Struktur | Inkindo'
+
+        ]);
+    }
+
+    public function syaratanggota()
+    {
+        return view('keanggotaan/syarat_anggota', [
+            'title' => 'Syarat Anggota | Inkindo'
 
         ]);
     }

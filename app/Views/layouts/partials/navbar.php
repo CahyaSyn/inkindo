@@ -4,7 +4,8 @@
         <div id="navcol-1" class="collapse navbar-collapse d-xl-flex justify-content-md-end">
             <ul class="navbar-nav fw-semibold">
                 <li class="nav-item"><a class="nav-link active" href="<?= base_url('/'); ?>">Beranda</a></li>
-                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Profil Inkindo</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Profil Inkindo</a>
                     <div class="dropdown-menu dropdown-menu-end">
                         <a class="dropdown-item" href="<?= base_url('/prakata'); ?>">Prakata</a>
                         <a class="dropdown-item" href="<?= base_url('/visimisi'); ?>">Visi - Misi</a>
@@ -15,8 +16,12 @@
                 <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Bidang Layanan</a>
                     <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="<?= base_url('/struktur'); ?>">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Keanggotaan</a>
-                    <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Keanggotaan</a>
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <a class="dropdown-item" href="#">Daftar Anggota</a>
+                        <a class="dropdown-item" href="<?= base_url('/syarat_anggota'); ?>">Syarat Anggota</a>
+                    </div>
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Informasi Publik</a>
                     <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
