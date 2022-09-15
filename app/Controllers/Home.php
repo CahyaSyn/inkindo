@@ -6,13 +6,6 @@ use App\Models\AgendaModel;
 
 class Home extends BaseController
 {
-    protected $AgendaModel;
-
-    public function __construct()
-    {
-        $this->AgendaModel = new AgendaModel();
-    }
-
     public function index()
     {
         // $data = [
@@ -59,7 +52,6 @@ class Home extends BaseController
     {
         return view('keanggotaan/syarat_anggota', [
             'title' => 'Syarat Anggota | Inkindo'
-
         ]);
     }
 }

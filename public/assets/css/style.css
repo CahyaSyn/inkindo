@@ -107,11 +107,10 @@
 }
 
 .bg-roadmap {
-  background: url("../assets/img/background-roadmap.png") center/contain
-    no-repeat;
+  background: url("../assets/img/background-roadmap.png") center/contain no-repeat;
 }
 
-.border {
+.border-syarat {
   background: #0a425c;
   border-radius: 10px;
 }

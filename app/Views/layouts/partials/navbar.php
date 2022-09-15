@@ -26,8 +26,8 @@
                 <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Informasi Publik</a>
                     <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-ellipsis-h"></i></a>
-                    <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                <li>
+                    <a class="ms-md-2 btn btn-outline-secondary" href="<?= base_url('/login'); ?>">Login</a>
                 </li>
             </ul>
         </div>

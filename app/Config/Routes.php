@@ -43,6 +43,21 @@ $routes->get('/kodeetik', 'Home::kodeetik');
 $routes->get('/visimisi', 'Home::visimisi');
 $routes->get('/struktur', 'Home::struktur');
 $routes->get('/syarat_anggota', 'Home::syaratanggota');
+$routes->get('/login', 'UserController::index');
+
+
+$routes->match(['get', 'post'], 'login', 'UserController::login', ["filter" => "noauth"]);
+// Admin routes
+$routes->group("admin", ["filter" => "auth"], function ($routes) {
+    $routes->get("/", "AdminController::index");
+});
+// Anggota routes
+$routes->group("editor", ["filter" => "auth"], function ($routes) {
+    $routes->get("/", "AnggotaController::index");
+});
+$routes->get('logout', 'UserController::logout');
+
+
 
 
 /*
